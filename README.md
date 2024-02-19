@@ -12,3 +12,12 @@ Table	       	URL
 Entity (table) List		http://localhost:8080/odata.rsc/
 Metadata for table VideoSearch		http://localhost:8080/odata.rsc/VideoSearch/$metadata?@json
 VideoSearch		http://localhost:8080/odata.rsc/Bing_VideoSearch
+
+npm install -g babel
+npm install -g babel-cli
+
+cd ./apiserver-react
+
+npm install
+
+npm start
